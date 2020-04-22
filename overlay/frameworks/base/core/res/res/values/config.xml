@@ -144,4 +144,22 @@
 
     <!-- Enable system navigation keys. -->
     <bool name="config_supportSystemNavigationKeys">true</bool>
+
+    <!-- Display mode remapping table.
+         If the mode names returned by the backend do not match
+         the predefined and translated strings in the Settings
+         app, they can be remapped here. The format is
+         "oldname:newname", one per entry. -->
+    <string-array name="config_displayModeMappings" translatable="false">
+        <item>A_standard:standard</item>
+        <item>B_warm:Warm</item>
+        <item>C_normal:Normal</item>
+        <item>D_cold:Cold</item>
+        <item>E_increase:adaptive</item>
+        <item>E_increased:adaptive</item>
+        <item>F_default:basic</item>
+    </string-array>
+
+    <!-- Should we filter any display modes which are unampped? -->
+    <bool name="config_filterDisplayModes">true</bool>
 </resources>
