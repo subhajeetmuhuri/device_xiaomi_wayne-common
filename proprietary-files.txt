@@ -804,10 +804,6 @@ vendor/lib64/libsensor1.so
 vendor/lib64/sensors.ssc.so
 
 # Thermal - from jasmine
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine-video.conf
 vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
