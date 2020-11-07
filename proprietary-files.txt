@@ -1,4 +1,4 @@
-# Audio ACDB - from jasmine
+# Audio ACDB - from jasmine V11.0.15.0.QDIMIXM
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
@@ -9,12 +9,12 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Audio Power Amplifier - from jasmine
+# Audio Power Amplifier - from jasmine V11.0.15.0.QDIMIXM
 vendor/firmware/dbmd4_va_fw.bin
 vendor/firmware/tas2557_uCDSP.bin
 vendor/firmware/tfa98xx.cnt
 
-# Camera - from jasmine
+# Camera - from jasmine V11.0.15.0.QDIMIXM
 vendor/etc/camera/camera_config.xml
 vendor/etc/camera/female_bg.png
 vendor/etc/camera/female_icon.png
@@ -124,13 +124,13 @@ vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/libvideoutils.so
 
-# Camera Actuators - from jasmine
+# Camera Actuators - from jasmine V11.0.15.0.QDIMIXM
 vendor/lib/libactuator_wayne_imx376_ofilm_back_ii_dw9763.so
 vendor/lib/libactuator_wayne_imx376_sunny_back_i_dw9763.so
 vendor/lib/libactuator_wayne_imx486_ofilm_ii_dw9763.so
 vendor/lib/libactuator_wayne_imx486_sunny_i_dw9763.so
 
-# Camera Chromatix - from jasmine
+# Camera Chromatix - from jasmine V11.0.15.0.QDIMIXM
 vendor/lib/libchromatix_wayne_imx376_ofilm_cn_back_ii_bokeh_preview_3a.so
 vendor/lib/libchromatix_wayne_imx376_ofilm_cn_back_ii_bokeh_preview.so
 vendor/lib/libchromatix_wayne_imx376_ofilm_cn_back_ii_common.so
@@ -679,10 +679,10 @@ vendor/lib/libmmcamera_wayne_imx486_sunny_iii_eeprom.so
 vendor/lib/libmmcamera_wayne_imx486_sunny_iii.so
 vendor/lib/libmmcamera_wayne_imx486_sunny_i.so
 
-# Camera firmware - from jasmine
+# Camera firmware - from jasmine V11.0.15.0.QDIMIXM
 vendor/firmware/cpp_firmware_v1_12_0.fw
 
-# Camera sensors - from jasmine
+# Camera sensors - from jasmine V11.0.15.0.QDIMIXM
 vendor/lib/libmmcamera_arcsoftbokeh_lib.so
 vendor/lib/libmmcamera_bokeh.so
 vendor/lib/libmmcamera_depth_map.so
@@ -731,7 +731,7 @@ vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
 
-# Consumerir - from jasmine
+# Consumerir - from jasmine V11.0.15.0.QDIMIXM
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so
 
 # Display Calibration - from jasmine V9.6.17.0.ODIMIFE
@@ -768,7 +768,7 @@ vendor/firmware/fpctzappfingerprint.b06|3e33546552f8ee4af98008f5907079a43f75d443
 vendor/firmware/fpctzappfingerprint.b07|127342f5ddf0f91a9d62d133bfc04fb68fedd0d3
 vendor/firmware/fpctzappfingerprint.mdt|c149e27236e275fcef2cb243c3ab180e84197da2
 
-# Graphics firmware - from jasmine
+# Graphics firmware - from jasmine V11.0.15.0.QDIMIXM
 vendor/firmware/a512_zap.b00
 vendor/firmware/a512_zap.b01
 vendor/firmware/a512_zap.b02
@@ -778,37 +778,37 @@ vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 vendor/firmware/a540_gpmu.fw2
 
-# Gatekeeper - from jasmine
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+# Gatekeeper - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|14751f15eba2a00f20a39d1ec4fccbacb819ab34
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|cdede0fb485c3b8375f7a8bfb63422c2be29efec
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|6671d15e20a07f1bebf15c8105c65f5ccc6faf63
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 
-# Keymaster - from jasmine
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+# Keymaster - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|fb93870d63c9476a6e447ee5859dbda48350c1e9
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|b01628a4c305519f81b5529c92cafc4f3cdc8d28
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|de22b6873a674d48959ac5885b49cbff417b287a
 
-# Sensors - from jasmine
-vendor/bin/sensors.qti
-vendor/etc/sensors/hals.conf
-vendor/etc/sensors/sensor_def_qcomdev.conf
-vendor/lib/hw/activity_recognition.sdm660.so
-vendor/lib/libsensor_reg.so
-vendor/lib/libsensor1.so
-vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.sdm660.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/libsensor1.so
-vendor/lib64/sensors.ssc.so
+# Keymaster - from jasmine V11.0.15.0.QDIMIXM
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
 
-# Thermal - from jasmine
-vendor/bin/thermal-engine
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalfeature.so
-vendor/lib64/libthermalioctl.so
+# Sensors - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/bin/sensors.qti|80122bf87aee029fa7029aa1cc8a651cf167a06b
+vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
+vendor/etc/sensors/sensor_def_qcomdev.conf|fa2c2a99d295343c024296ed8a5c32fa0525374b
+vendor/lib/hw/activity_recognition.sdm660.so|abb27164556460cfd4c059a3298570acc387ac61
+vendor/lib/libsensor_reg.so|170c40b9b7d48c922cd3ca1a552a34311ee79799
+vendor/lib/libsensor1.so|b1b0dcb45432e51fabffe595010f35a017c7a3fd
+vendor/lib/sensors.ssc.so|9276c8863dccd2cd13e0a29083e75648ab0c0e97
+vendor/lib64/hw/activity_recognition.sdm660.so|ad32fc78b016d290dfe23435f6132fd918064dd8
+vendor/lib64/libsensor_reg.so|be00c924983a2a279f799332cf2b262da9af78d1
+vendor/lib64/libsensor1.so|dac9d5fb1b5aacfa5bedf812ebdd04eadd0af2dc
+vendor/lib64/sensors.ssc.so|da3e7b1722ea136bd76b716ddd2ec814ee3cc0b7
 
-# Wifi - from jasmine
-vendor/bin/cnss-daemon
+# Thermal - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/bin/thermal-engine|e012f4c1bd057281707bd160a6ee2479b7db8667
+-vendor/lib/libthermalclient.so|34b6ee056ae8a6df578fc243f8acd3567a49d97b
+-vendor/lib64/libthermalclient.so|20f1fd238fc81bf1c6828ec416121c0ef66e0df1
+
+# Wifi - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/bin/cnss-daemon|a7b196d0c8204f6fbe445710e8d062d0c2d9b42f
