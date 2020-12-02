@@ -29,6 +29,14 @@
 
 import /vendor/etc/init/hw/init.verity.rc
 
+on post-fs
+    chown system system /sys/class/leds/vibrator/vmax_override
+    write /sys/class/leds/vibrator/vmax_override 1
+    chown system system /sys/class/leds/vibrator/vmax_mv_user
+    write /sys/class/leds/vibrator/vmax_mv_user 1160
+    chown system system /sys/class/leds/vibrator/vmax_mv_call
+    chown system system /sys/class/leds/vibrator/vmax_mv_strong
+
 on boot
     # Camera
     chmod 0660 /sys/android_camera/sensor
