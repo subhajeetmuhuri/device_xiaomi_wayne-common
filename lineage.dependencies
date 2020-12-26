@@ -8,5 +8,11 @@
     "repository": "subhajeetmuhuri/vendor_xiaomi_wayne-common",
     "target_path": "vendor/xiaomi/wayne-common",
     "branch" : "lineage-18.1-4.4"
+  },
+  {
+    "repository": "subhajeetmuhuri/vendor_partner_gms",
+    "target_path": "vendor/partner_gms",
+    "remote": "gitlab",
+    "branch" : "lineage-18.1"
   }
 ]
