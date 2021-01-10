@@ -14,5 +14,10 @@
     "target_path": "vendor/partner_gms",
     "remote": "gitlab",
     "branch" : "lineage-18.1"
+  },
+  {
+    "repository": "subhajeetmuhuri/vendor_miuicamera",
+    "target_path": "vendor/miuicamera",
+    "branch" : "lineage-18.1"
   }
 ]

@@ -42,3 +42,4 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
 
 # Inherit the proprietary files
 include vendor/xiaomi/wayne-common/BoardConfigVendor.mk
+include vendor/miuicamera/common/BoardConfigVendor.mk
