@@ -39,4 +39,7 @@
     <!-- Enable vibrate for calls by default -->
     <bool name="def_vibrate_when_ringing">true</bool>
 
+    <!-- Disable charging sounds by default -->
+    <bool name="def_charging_sounds_enabled">false</bool>
+
 </resources>
